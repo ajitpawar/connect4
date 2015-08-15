@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://localhost/connect4';
+$config['base_url']	= 'http://pawar-demo-connect4.herokuapp.com';
 
 /*
 |--------------------------------------------------------------------------
