@@ -1,0 +1,93 @@
+#global-container-game {
+	padding: 0 30px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+#global-container-game h1 {
+	text-align: center;
+}
+
+#game-container {
+	text-align: center;
+}
+
+#game {
+	display: inline-block;
+	border: 1px solid #333;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	margin: 10px auto;
+	min-width: 500px;
+}
+
+#game aside {
+	border-right: 1px dashed #ddd;
+	float: left;
+	margin: 0;
+}
+
+.your-turn aside:hover {
+	background-color: rgba(235,235,235,1);
+}
+
+#game aside:last-of-type {
+	border: none;
+}
+
+#game aside div {
+	width: 70px;
+	height: 70px;
+	border-top: 1px dashed #ddd;
+	position: relative;
+}
+
+#game aside div:first-child{
+	border-top: none;
+}
+
+#game div:before {
+	width: 66px;
+	height: 66px;
+	border-radius: 50%;
+	position: absolute;
+	top: 2px;
+	left: 2px;
+}
+
+.blue:before{
+	content: "";
+	background-color: #0099cc;
+}
+
+.red:before{
+	content: "";
+	background-color: #f3003d;
+}
+
+#next-player {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	border: 2px solid #333;
+}
+
+#next-player:before {
+	width: 92px;
+	height: 92px;
+	border-radius: 50%;
+	position: absolute;
+	top: 2px;
+	left: 2px;
+}
+
+.blue-next:before {
+	content: "";
+	background-color: #0099cc;
+}
+
+.red-next:before {
+	content: "";
+	background-color: #f3003d;
+}
